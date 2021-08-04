@@ -1,13 +1,3 @@
-LIST OF PROJECTS
-
-1. (in development) TodoList
-   from
-   React JS Crash Course 2020
-   https://youtu.be/xJZa2_aldDs?t=2930
-   https://github.com/vladilenm/react-cc-2020
-
-2.
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
