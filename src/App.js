@@ -1,12 +1,19 @@
-import JSONplaceholder from './components/models/json/JSONplaceholder'
-import Layout from './components/views/Layout/Layout'
+import { Layout } from './components/views/Layout/Layout'
+import { Menu } from './components/views/Menu/Menu'
+import { Feed } from './components/views/Feed/Feed'
+import { Aside } from './components/views/Aside/Aside'
+import { Content } from './components/views/Content/Content'
+import { Footer } from './components/views/Footer/Footer'
 
-function App() {
-    return (
-        <Layout layoutStyle='default'>
-            <JSONplaceholder type='todos' />
-        </Layout>
-    )
-}
+export const App = () => (
+    <Layout layoutStyle='blog'>
+        <Menu />
+        <Content>
+            <Aside />
+            <Feed />
+            <Aside />
+        </Content>
 
-export default App
+        <Footer />
+    </Layout>
+)

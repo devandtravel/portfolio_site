@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import ReactJson from 'react-json-view'
 
-function JSONplaceholder({ type='users' }) {
+export const JSONplaceholder = ({ type = 'users' }) => {
     const [data, setData] = useState({})
 
     useEffect(() => {
@@ -16,6 +16,7 @@ function JSONplaceholder({ type='users' }) {
         }
         fetchData()
     }, [type])
+
     return (
         <ReactJson
             src={data}
@@ -42,5 +43,3 @@ function JSONplaceholder({ type='users' }) {
         />
     )
 }
-
-export default JSONplaceholder

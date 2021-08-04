@@ -1,3 +1,14 @@
+LIST OF PROJECTS
+
+1.
+TodoList
+from
+React JS Быстрый Курс 2020
+https://www.youtube.com/watch?v=xJZa2_aldDs&list=PLqKQF2ojwm3lrzkYrqnxh6qywB99dCyCt&index=11
+https://github.com/vladilenm/react-cc-2020
+
+2.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
