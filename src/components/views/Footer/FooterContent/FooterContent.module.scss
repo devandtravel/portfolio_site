@@ -1,0 +1,10 @@
+$widthFooterContent: 80%;
+
+.FooterContent {
+    background-color: wheat;
+    min-height: 6vh;
+    width: $widthFooterContent;
+    height: fit-content;
+    align-self: center;
+    padding: 1%;
+}

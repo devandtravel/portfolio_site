@@ -1,0 +1,29 @@
+$heightNavigation: 6vh;
+$widthNavigation: 80%;
+$widthNavigationItem: 10vw;
+$heightNavigationItem: 50%;
+
+.Navigation {
+    min-height: 50px;
+    background-color: blueviolet;
+    width: $widthNavigation;
+    height: $heightNavigation;
+    display: flex;
+    align-self: center;
+    padding-left: 20%;
+}
+
+.NavigationItem {
+    background-color: greenyellow;
+    width: $widthNavigationItem;
+    height: $heightNavigationItem;
+    margin: 0 0.5vh 0 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}

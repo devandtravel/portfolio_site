@@ -1,0 +1,11 @@
+$heightHeader: 10vh;
+$widthHeader: 100%;
+
+.Header {
+    min-height: 50px;
+    background-color: goldenrod;
+    width: $widthHeader;
+    height: $heightHeader;
+    padding: 1% 0;
+    display: flex;
+}

@@ -1,0 +1,19 @@
+$heightLogo: 6vh;
+$widthLogo: 20%;
+
+.Logo {
+    min-height: 50px;
+    background-color: fuchsia;
+    width: $widthLogo;
+    height: $heightLogo;
+    align-self: center;
+    display: flex;
+    
+}
+
+img {
+    height: $heightLogo;
+    align-self: center;
+    object-fit: scale-down;
+    padding: 5%;
+}
