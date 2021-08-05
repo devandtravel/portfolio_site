@@ -1,9 +1,13 @@
+@use '../../../global';
+
 $heightHeader: 10vh;
 $widthHeader: 100%;
 
 .Header {
+    // border: global.$borderRadius global.$borderStyle;
+    border-color: global.$borderColor;
     min-height: 50px;
-    background-color: goldenrod;
+    background-color: global.$backgroundColor;
     width: $widthHeader;
     height: $heightHeader;
     padding: 1% 0;

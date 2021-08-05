@@ -1,14 +1,17 @@
-$heightLogo: 6vh;
+@use '../../../../global';
+
+$heightLogo: 10vh;
 $widthLogo: 20%;
 
 .Logo {
+    // border: global.$borderRadius global.$borderStyle;
+    border-color: global.$borderColor;
     min-height: 50px;
-    background-color: fuchsia;
+    background-color: global.$backgroundColor;
     width: $widthLogo;
     height: $heightLogo;
     align-self: center;
     display: flex;
-    
 }
 
 img {

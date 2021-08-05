@@ -1,7 +1,11 @@
+@use '../../../../global';
+
 $widthSocial: 20%;
 
 .Social {
-    background-color: whitesmoke;
+    // border: global.$borderRadius global.$borderStyle;
+    border-color: global.$borderColor;
+    background-color: global.$backgroundColor;
     width: $widthSocial;
     height: fit-content;
     min-height: 6vh;
@@ -13,25 +17,24 @@ $widthSocial: 20%;
     padding: 1% 1% 1% 0;
 }
 
-a {
+.Social > a {
     margin: 0 1rem;
     transition: transform 250ms;
     display: inline-block;
-    
 }
 
-a:hover {
+.Social > a:hover {
     transform: translateY(-2px);
 }
 
-a.youtube {
+.Social > a.youtube {
     color: #eb3223;
 }
 
-a.github {
+.Social > a.github {
     color: #333;
 }
 
-.fa {
+.faSocial {
     font-size: 24px;
 }

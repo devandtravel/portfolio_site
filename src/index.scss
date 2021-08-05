@@ -1,7 +1,4 @@
-/* #region  VARIABLES */
-$colorGlobal: black;
-$fontSizeGlobal: 18px;
-/* #endregion */
+@use 'global';
 
 /* #region STYLES RESET */
 
@@ -32,6 +29,7 @@ dd {
 
 /* default settings for body */
 body {
+    overflow: auto;
     min-height: 100vh;
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
@@ -82,8 +80,8 @@ select {
 /* #region  STYLES */
 body {
     font-family: 'Mukta', sans-serif;
-    font-size: $fontSizeGlobal;
-    color: $colorGlobal;
+    font-size: global.$fontSize;
+    color: global.$color;
 }
 
 h1 {

@@ -1,4 +1,6 @@
-$backgroundColorLayout: cadetblue;
+@use '../../../global';
+
+$backgroundColorLayout: global.$backgroundColor;
 
 .LayoutDefault {
     display: flex;
@@ -11,7 +13,6 @@ $backgroundColorLayout: cadetblue;
 .LayoutClearHTML {
     display: flex;
     flex-direction: column;
-
     background-color: $backgroundColorLayout;
 }
 

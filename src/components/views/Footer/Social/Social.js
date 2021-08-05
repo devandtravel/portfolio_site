@@ -6,12 +6,12 @@ import { faYoutube, faGithub } from '@fortawesome/free-brands-svg-icons'
 export const Social = () => (
     <div className={styles.Social}>
         <a href='https://github.com/devandtravel' className={styles.github}>
-            <FontAwesomeIcon icon={faGithub} className={styles.fa} />
+            <FontAwesomeIcon icon={faGithub} className={styles.faSocial} />
         </a>
         <a
             href='https://www.youtube.com/channel/UCLO5KplVfPtAWmFkgsPJBZA'
             className={styles.youtube}>
-            <FontAwesomeIcon icon={faYoutube} className={styles.fa} />
+            <FontAwesomeIcon icon={faYoutube} className={styles.faSocial} />
         </a>
     </div>
 )

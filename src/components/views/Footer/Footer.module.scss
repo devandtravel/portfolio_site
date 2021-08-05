@@ -1,5 +1,9 @@
+@use '../../../global';
+
 .Footer {
-    background-color: gray;
+    // border: global.$borderRadius global.$borderStyle;
+    border-color: global.$borderColor;
+    background-color: global.$backgroundColor;
     width: 100%;
     min-height: 10vh;
     display: flex;

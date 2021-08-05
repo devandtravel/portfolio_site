@@ -1,7 +1,11 @@
+@use '../../../../global';
+
 $widthFooterContent: 80%;
 
 .FooterContent {
-    background-color: wheat;
+    // border: global.$borderRadius global.$borderStyle;
+    border-color: global.$borderColor;
+    background-color: global.$backgroundColor;
     min-height: 6vh;
     width: $widthFooterContent;
     height: fit-content;

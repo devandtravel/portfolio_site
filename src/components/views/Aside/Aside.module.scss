@@ -1,5 +1,9 @@
+@use '../../../global';
+
 .Aside {
-    background-color: salmon;
+    background-color: global.$backgroundColor;
+    // border: global.$borderRadius global.$borderStyle;
+    border-color: global.$borderColor;
     width: 20%;
     padding: 1%;
 }
