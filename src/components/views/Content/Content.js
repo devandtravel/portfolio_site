@@ -1,12 +1,8 @@
 import styles from './Content.module.scss'
-import { Aside } from './Aside/Aside'
-import { Feed } from './Feed/Feed'
 
 
-export const Content = () => (
+export const Content = ({ children}) => (
     <div className={styles.Content}>
-        <Aside />
-        <Feed />
-        <Aside />
+        {children}
     </div>
 )

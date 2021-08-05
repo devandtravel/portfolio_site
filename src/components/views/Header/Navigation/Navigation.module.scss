@@ -27,3 +27,8 @@ $heightNavigationItem: 50%;
 a {
     text-decoration: none;
 }
+
+a.active {
+    font-weight: bold;
+    color: red;
+}
