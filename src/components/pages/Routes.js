@@ -4,7 +4,7 @@ import { About } from './About/About'
 import { Contacts } from './Contacts/Contacts'
 import { Projects } from './Projects/Projects'
 import { Home } from './Home/Home'
-
+import { Error404 } from './Errors/Error404'
 
 export const Routes = () => (
     <Switch>
@@ -12,7 +12,7 @@ export const Routes = () => (
         <Route path='/about' component={About} />
         <Route path='/projects' component={Projects} />
         <Route path='/contacts' component={Contacts} />
-        <Redirect from={ '/'} to={'home'} exact/>
-        <Route render={() => <h1>404</h1>} />
+        <Redirect from={'/'} to={'home'} exact />
+        <Route render={() => <Error404 />} />
     </Switch>
 )
